@@ -89,7 +89,7 @@ console.log(todoText);
 
 //filter 
 
-
+/*
 const todoCompleted  = todos.filter(function(todo){
 
     return todo.isCompleted === true;
@@ -102,9 +102,28 @@ const todoCompleted  = todos.filter(function(todo){
 
 console.log(todoCompleted);
 
+*/
+// == equal doesnt match datatype condition 
+// === equal matches datatype condition 
 
 
+/*
+const x = 10;
+const y = 15;
 
+if(x > 5 && y > 10)
+{
+ console.log('x is more than 5 or y is more than 10');
+}
+
+if( x > 5 )
+{
+    if(y>10)
+    {
+
+    }
+}
+*/
 
 
 
