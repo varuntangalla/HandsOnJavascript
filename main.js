@@ -89,17 +89,25 @@ console.log(todoText);
 
 //filter 
 
-/*
+
 const todoCompleted  = todos.filter(function(todo){
 
     return todo.isCompleted === true;
    
-   }
-   );
+   }).map(function(todo){
+
+    return todo.text;
+   })
+   
 
 console.log(todoCompleted);
 
-*/
+
+
+
+
+
+
 
    
 
