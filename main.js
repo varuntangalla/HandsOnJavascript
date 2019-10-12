@@ -1,23 +1,55 @@
-// Array types - variables that hold multiple values 
+
+const person = {
+
+    firstName: 'SaiVarun',
+    lastName: 'Tangalla',
+    age: 30,
+    hobbies: ['music', 'movies', 'sports'],
+    address:{
+        street: '50 main st',
+        city: 'Boston',
+        state: 'MA'
+    }
+}
+
+console.log(person.firstName,person.lastName);
+
+console.log(person.hobbies[1]);
+
+console.log(person.address.city);
 
 
-/* Multi Line Comments 
 
-here */
-
-const fruits = ['apples','oranges','pears','bannans'];
+//Destructuring  
+const { firstName, lastName, address: { city } } = person;
 
 
-fruits[4]='grapes';
+ console.log(city);
 
-fruits.push('fruits1');
-fruits.unshift('fruits2')
-fruits.pop();
 
-console.log(Array.isArray('oranges'));
+ person.email = 'saitangalla@gmail.com';
 
-console.log(fruits.indexOf('oranges'));
+ console.log(person);
 
-console.log(fruits);
+ const todos = [
+     {
+      id: 1,
+      text: 'Take out trash',
+      isCompleted: true   
+     },
+     {
+        id: 2,
+        text: 'Meeting with boss',
+        isCompleted: true   
+    },
+    {
+        id: 3,
+        text: 'Dentist appt',
+        isCompleted: false   
+    }
+
+];
+
+console.log(todos[1].text);
 
 
