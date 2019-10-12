@@ -1,17 +1,29 @@
-// var, let , const
 
-//var is globally scoped 
-
-//let, const are es6 variables 
-
-// String,Numbers, Boolean, null, undefined, symbol are datatypes
-
-const name= 'Varun';
+const name = 'John';
 const age = 30;
-const isCool = true;
-const rating = 4.5;
-const x = null;
-const y = undefined;
-let z;
+//concatenation 
 
-console.log(typeof(name));
+console.log('My name is ' + name +' and I am ' + age);
+
+// Template String 
+
+console.log(`My name is ${name} and I am ${age}`);
+
+
+const s = 'Hello World';
+
+console.log(s.length);
+
+console.log(s.toUpperCase());
+
+console.log(s.toLowerCase());
+
+console.log(s.substring(0,5).toUpperCase());
+
+
+//will split the entire value 
+console.log(s.split(''))
+
+const p = 'technology, computers, it, code';
+
+console.log(p.split(', '));
