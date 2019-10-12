@@ -22,4 +22,11 @@ const todoJSON = JSON.stringify(todos);
 
 console.log(todoJSON);
 
+//For 
+
+for( let i = 0 ; i< 10;i++)
+{
+     console.log(i);
+}
+
 
