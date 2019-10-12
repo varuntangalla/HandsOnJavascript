@@ -4,6 +4,14 @@
 
 //let, const are es6 variables 
 
-const score = 10;
+// String,Numbers, Boolean, null, undefined, symbol are datatypes
 
-console.log(score);
+const name= 'Varun';
+const age = 30;
+const isCool = true;
+const rating = 4.5;
+const x = null;
+const y = undefined;
+let z;
+
+console.log(typeof(name));
