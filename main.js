@@ -1,29 +1,23 @@
-
-const name = 'John';
-const age = 30;
-//concatenation 
-
-console.log('My name is ' + name +' and I am ' + age);
-
-// Template String 
-
-console.log(`My name is ${name} and I am ${age}`);
+// Array types - variables that hold multiple values 
 
 
-const s = 'Hello World';
+/* Multi Line Comments 
 
-console.log(s.length);
+here */
 
-console.log(s.toUpperCase());
-
-console.log(s.toLowerCase());
-
-console.log(s.substring(0,5).toUpperCase());
+const fruits = ['apples','oranges','pears','bannans'];
 
 
-//will split the entire value 
-console.log(s.split(''))
+fruits[4]='grapes';
 
-const p = 'technology, computers, it, code';
+fruits.push('fruits1');
+fruits.unshift('fruits2')
+fruits.pop();
 
-console.log(p.split(', '));
+console.log(Array.isArray('oranges'));
+
+console.log(fruits.indexOf('oranges'));
+
+console.log(fruits);
+
+
