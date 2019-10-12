@@ -1,4 +1,9 @@
-console.log('Hello Varun'); 
+// var, let , const
 
-console.error('This is an error');
-console.warn('This is a warning');
+//var is globally scoped 
+
+//let, const are es6 variables 
+
+const score = 10;
+
+console.log(score);
