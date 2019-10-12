@@ -1,36 +1,37 @@
 
 
-//Function 
-/* function addNums(num1, num2)
-{
-    return num1 + num2;
+// Constructor function 
+
+function Person(firstName, lastName, dob){
+
+    this.firstName = firstName;
+    this.lastName = lastName; 
+    this.dob = new Date(dob);
+    this.getBirthYear = function(){
+
+        return this.dob.getFullYear();
+    }
+
+    this.getFullName = function(){
+
+       // return this.firstName +" "+this.lastName;
+
+       return `${this.firstName} ${this.lastName}`
+    }
+
+
 }
 
-console.log(addNums(5,4));
+//Instantiate Object 
 
-*/
+const person1 = new Person('SaiVarun', 'Tangalla', '6-6-1996');
+const person2 = new Person('Shravya', 'Tangalla', '9-9-1999');
 
 
-//Arrow Functions
+console.log(person1.getBirthYear());
 
-/*
-const addNums = (num1=1, num2=1) => {
+console.log(person1.getFullName());
 
-    console.log(num1 + num2);
-}
-
-addNums(5,7);
-
-*/
-
-/*
-
-// fat arrow function
-const subNums = (num1, num2) => num1 - num2;
-
-console.log(subNums(10,4));
-
-*/
 
 
 
