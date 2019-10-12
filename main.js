@@ -1,5 +1,5 @@
 
-//Class 
+//Class  are easier to write prefer writing it with classes 
 
 class Person{
 
