@@ -126,6 +126,14 @@ if( x > 5 )
 */
 
 
+const x = 12;
+
+const color = x > 10 ? 'red' : 'blue';
+
+console.log(color);
+
+
+
 
 
    
